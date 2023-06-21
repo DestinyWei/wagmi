@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "anvil": "anvil --fork-url $ANVIL_FORK_URL --fork-block-number 16773780",
+    "anvil": "anvil --fork-url $ANVIL_FORK_URL --fork-block-number 16966590",
     "build": "pnpm --filter '@wagmi/chains' build && pnpm --filter '@wagmi/core' build && pnpm -r --filter './packages/**' --filter './references/**' --filter '!./packages/core' --filter '!./references/**/chains' build",
     "changeset:release": "pnpm build && changeset publish",
     "changeset:version": "changeset version && pnpm install --lockfile-only",
@@ -34,7 +34,7 @@
     "@types/prettier": "^2.7.2",
     "@vitest/coverage-c8": "^0.31.1",
     "@vitest/ui": "^0.31.1",
-    "abitype": "^0.8.2",
+    "abitype": "^0.8.7",
     "dedent": "^0.7.0",
     "esbuild": "0.15.13",
     "esbuild-register": "^3.4.2",
@@ -58,7 +58,7 @@
   "packageManager": "pnpm@8.3.1",
   "pnpm": {
     "overrides": {
-      "abitype": "0.8.2",
+      "abitype": "0.8.7",
       "esbuild": "0.15.13"
     }
   }

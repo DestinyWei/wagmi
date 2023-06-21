@@ -2,7 +2,7 @@
   "name": "@wagmi/core",
   "description": "Vanilla JS library for Ethereum",
   "license": "MIT",
-  "version": "1.0.8",
+  "version": "1.2.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/wagmi-dev/wagmi.git",
@@ -111,8 +111,8 @@
     "/dist"
   ],
   "peerDependencies": {
-    "viem": "~0.3.35",
-    "typescript": "^5.0.4"
+    "viem": ">=0.3.35",
+    "typescript": ">=5.0.4"
   },
   "peerDependenciesMeta": {
     "typescript": {
@@ -122,12 +122,12 @@
   "dependencies": {
     "@wagmi/chains": "workspace:*",
     "@wagmi/connectors": "workspace:*",
-    "abitype": "0.8.2",
+    "abitype": "0.8.7",
     "eventemitter3": "^4.0.7",
     "zustand": "^4.3.1"
   },
   "devDependencies": {
-    "viem": "~0.3.35"
+    "viem": "^1.0.0"
   },
   "keywords": [
     "eth",
